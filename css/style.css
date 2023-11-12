@@ -374,4 +374,13 @@ a {
 .create-post-input img {
   width:35px;
   border-radius: 50%;
+  margin-right: 10px;
+}
+
+.create-post-input textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  resize: none;
+  background: transparent;
 }
