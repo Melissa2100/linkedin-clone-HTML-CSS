@@ -383,4 +383,13 @@ a {
   outline: 0;
   resize: none;
   background: transparent;
+  margin-top: 8px;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+
+.create-post-links {
+  
 }
