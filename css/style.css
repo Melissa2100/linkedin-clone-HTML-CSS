@@ -531,6 +531,7 @@ a {
   margin-left: 5px;
 }
 
-.post-activity-link {
-  
+.post-activity-link img {
+  width: 18px;
+  margin-right: 8px;
 }
