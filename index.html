@@ -54,12 +54,14 @@
       </div>
       <div class="navbar-right">
         <div class="online">
-          <img src="/images/user-1.png" class="nav-profile-img" />
+          <img
+            src="/images/user-1.png"
+            class="nav-profile-img" onclick="toggleMenu()"/>
         </div>
       </div>
 
       <!-- || profile dropdown menu -->
-      <div class="profile-menu-wrap">
+      <div class="profile-menu-wrap" id="profileMenu">
         <div class="profile-menu">
           <div class="user-info">
             <img src="/images/user-1.png" />
@@ -448,5 +450,16 @@
         </div>
       </div>
     </div>
+
+
+<script>
+  let profileMenu = document.getElementById("profileMenu");
+
+function toggleMenu() {
+  profileMenu.classList.toggle("open-menu");
+}
+</script>
+
+    
   </body>
 </html>
